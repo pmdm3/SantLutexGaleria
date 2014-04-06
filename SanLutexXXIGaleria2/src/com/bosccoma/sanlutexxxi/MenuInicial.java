@@ -106,10 +106,6 @@ public class MenuInicial extends Activity {
 		Bundle b = new Bundle();
 
 		b.putString("SALUTACIO", txtSalutacio.getText().toString());
-		
-//		intent.putExtra("IMATGE",
-//				Uri.fromFile(tempImageFile));
-
 
 		// Añadimos la información al intent
 		intent.putExtras(b);

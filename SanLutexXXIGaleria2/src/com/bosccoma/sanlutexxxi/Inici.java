@@ -59,6 +59,8 @@ public class Inici extends Activity {
 
 		b.putString("NOM", txtNom.getText().toString());
 		b.putString("COGNOM", txtCognom.getText().toString());
+		b.putString("FITXER", tempImageFile.getName());
+		b.putString("PATH", tempImageFile.getPath());
 		// Añadimos la información al intent
 		intent.putExtras(b);
 

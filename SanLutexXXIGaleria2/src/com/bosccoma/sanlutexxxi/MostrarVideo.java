@@ -15,7 +15,7 @@ import android.widget.VideoView;
 public class MostrarVideo extends Activity implements OnClickListener {
 	private VideoView videoView;
 	private MediaController mediaController;
-
+	Boolean panell = true;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -49,7 +49,7 @@ public class MostrarVideo extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View arg0) {
 		// TODO Auto-generated method stub
-		Boolean panell = true;
+		
 
 		ImageView visorImatge = (ImageView) findViewById(R.id.imgpanell);
 		if (panell) {
